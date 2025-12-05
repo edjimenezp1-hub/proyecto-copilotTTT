@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    color: #222;
+}
+header {
+    background: #2d3e50;
+    color: #fff;
+    padding: 2rem 1rem 1rem 1rem;
+    text-align: center;
+}
+header h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+header h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+nav a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #fff;
+}
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+    padding: 2rem;
+}
+article {
+    margin-bottom: 3rem;
+}
+article h3 {
+    color: #2d3e50;
+    margin-top: 0;
+}
+section h4 {
+    color: #3a5068;
+    margin-bottom: 0.5rem;
+}
+ul, table {
+    margin-bottom: 1rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: left;
+}
+table th {
+    background: #e9ecef;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #2d3e50;
+    color: #fff;
+    border-top: 1px solid #e9ecef;
+    margin-top: 2rem;
+}
+@media (max-width: 600px) {
+    main {
+        padding: 1rem;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

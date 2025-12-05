@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Técnico - Arquitectura de Software</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>EDGAR DUVAN JIMENEZ PALECHOR</h1>
+        <h2>Blog Técnico: Arquitectura de Software</h2>
+        <nav>
+            <ul>
+                <li><a href="#post1">¿Qué es la Arquitectura de Software?</a></li>
+                <li><a href="#post2">Estilos Arquitectónicos más utilizados</a></li>
+                <li><a href="#post3">Patrones Arquitectónicos Modernos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="post1">
+            <h3>¿Qué es la Arquitectura de Software?</h3>
+            <section>
+                <h4>Definición</h4>
+                <p>La arquitectura de software es la estructura fundamental de un sistema, compuesta por sus componentes, las relaciones entre ellos y las propiedades que estos poseen. Define cómo se organizan y conectan los módulos, interfaces y conectores para cumplir los objetivos del sistema.</p>
+            </section>
+            <section>
+                <h4>Objetivo principal</h4>
+                <p>El objetivo principal de la arquitectura es garantizar que el sistema cumpla con los requisitos funcionales y no funcionales, facilitando la escalabilidad, mantenibilidad y rendimiento.</p>
+            </section>
+            <section>
+                <h4>Componentes básicos</h4>
+                <ul>
+                    <li><strong>Módulos:</strong> Unidades funcionales independientes.</li>
+                    <li><strong>Interfaces:</strong> Puntos de comunicación entre módulos.</li>
+                    <li><strong>Conectores:</strong> Mecanismos que permiten la interacción entre módulos.</li>
+                </ul>
+            </section>
+            <section>
+                <h4>Importancia</h4>
+                <ul>
+                    <li><strong>Escalabilidad:</strong> Permite crecer el sistema sin perder calidad.</li>
+                    <li><strong>Mantenibilidad:</strong> Facilita la actualización y corrección de errores.</li>
+                    <li><strong>Rendimiento:</strong> Optimiza el uso de recursos y tiempos de respuesta.</li>
+                </ul>
+            </section>
+            <section>
+                <h4>Roles y responsabilidades del Arquitecto de Software</h4>
+                <p>El arquitecto de software diseña la estructura del sistema, selecciona tecnologías, define estándares y asegura la calidad técnica del proyecto.</p>
+            </section>
+            <section>
+                <h4>Ejemplos básicos</h4>
+                <ul>
+                    <li>Sistema de gestión hospitalaria con arquitectura en capas.</li>
+                    <li>Aplicación web de ventas con arquitectura cliente-servidor.</li>
+                </ul>
+            </section>
+            <section>
+                <h4>Conclusión</h4>
+                <p>La arquitectura de software es clave para el éxito de cualquier proyecto, pues define la base sobre la que se construye y evoluciona el sistema.</p>
+            </section>
+        </article>
+        <article id="post2">
+            <h3>Estilos Arquitectónicos más utilizados</h3>
+            <section>
+                <h4>Definición</h4>
+                <p>Un estilo arquitectónico es un patrón general que define la organización y comunicación entre los componentes de un sistema.</p>
+            </section>
+            <section>
+                <h4>Estilo Monolítico</h4>
+                <ul>
+                    <li><strong>Características:</strong> Todo el sistema se desarrolla como una sola unidad.</li>
+                    <li><strong>Ventajas:</strong> Simplicidad, fácil despliegue.</li>
+                    <li><strong>Desventajas:</strong> Difícil de escalar y mantener.</li>
+                </ul>
+            </section>
+            <section>
+                <h4>Arquitectura en Capas (N-Capas)</h4>
+                <p>Organiza el sistema en capas independientes (presentación, lógica, datos).</p>
+            </section>
+            <section>
+                <h4>Arquitectura Cliente-Servidor</h4>
+                <p>Divide el sistema en clientes que solicitan servicios y servidores que los proveen.</p>
+            </section>
+            <section>
+                <h4>Arquitectura MVC</h4>
+                <p>Modelo-Vista-Controlador: separa la lógica de negocio, la interfaz y el control de flujo.</p>
+            </section>
+            <section>
+                <h4>Arquitectura de Microservicios</h4>
+                <p>El sistema se compone de servicios pequeños e independientes que se comunican entre sí.</p>
+            </section>
+            <section>
+                <h4>Comparación de estilos</h4>
+                <table>
+                    <tr><th>Estilo</th><th>Ventajas</th><th>Desventajas</th></tr>
+                    <tr><td>Monolítico</td><td>Simplicidad</td><td>Escalabilidad limitada</td></tr>
+                    <tr><td>Capas</td><td>Organización clara</td><td>Puede ser rígido</td></tr>
+                    <tr><td>Cliente-Servidor</td><td>Separación de responsabilidades</td><td>Dependencia de red</td></tr>
+                    <tr><td>MVC</td><td>Mantenibilidad</td><td>Complejidad inicial</td></tr>
+                    <tr><td>Microservicios</td><td>Escalabilidad, flexibilidad</td><td>Complejidad de integración</td></tr>
+                </table>
+            </section>
+            <section>
+                <h4>Conclusión</h4>
+                <p>La elección del estilo depende de los requisitos del proyecto: monolítico para sistemas simples, microservicios para escalabilidad, capas y MVC para organización y mantenibilidad.</p>
+            </section>
+        </article>
+        <article id="post3">
+            <h3>Patrones Arquitectónicos Modernos</h3>
+            <section>
+                <h4>Definición</h4>
+                <p>Un patrón arquitectónico es una solución reutilizable para problemas comunes en el diseño de sistemas.</p>
+            </section>
+            <section>
+                <h4>Patrón Clean Architecture</h4>
+                <ul>
+                    <li><strong>Capas:</strong> Entidades, casos de uso, interfaces, frameworks.</li>
+                    <li><strong>Propósito:</strong> Separar la lógica de negocio de detalles técnicos.</li>
+                </ul>
+            </section>
+            <section>
+                <h4>Arquitectura Hexagonal (Puertos y Adaptadores)</h4>
+                <p>Permite que el núcleo del sistema sea independiente de los mecanismos externos, facilitando la integración y pruebas.</p>
+            </section>
+            <section>
+                <h4>Patrón CQRS</h4>
+                <p>Separa las operaciones de lectura y escritura, optimizando el rendimiento y la escalabilidad.</p>
+            </section>
+            <section>
+                <h4>Ventajas y desventajas</h4>
+                <ul>
+                    <li><strong>Clean Architecture:</strong> + Mantenibilidad, - Complejidad inicial.</li>
+                    <li><strong>Hexagonal:</strong> + Flexibilidad, - Curva de aprendizaje.</li>
+                    <li><strong>CQRS:</strong> + Rendimiento, - Complejidad de sincronización.</li>
+                </ul>
+            </section>
+            <section>
+                <h4>Ejemplos de aplicación</h4>
+                <ul>
+                    <li>Aplicaciones empresariales con Clean Architecture.</li>
+                    <li>Sistemas bancarios con Hexagonal.</li>
+                    <li>Plataformas de comercio electrónico con CQRS.</li>
+                </ul>
+            </section>
+            <section>
+                <h4>Conclusión</h4>
+                <p>Los patrones modernos permiten construir sistemas robustos y escalables. La elección depende de los objetivos y recursos del proyecto.</p>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2025 EDGAR DUVAN JIMENEZ PALECHOR</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
